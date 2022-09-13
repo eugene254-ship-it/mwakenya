@@ -35,7 +35,7 @@ function Copyright() {
     <Typography variant="body2" color="text.secondary" align="center">
       {"Copyright © "}
       <Link color="inherit" href="http://localhost:3000/">
-        Uniplat
+        Mwakenya
       </Link>{" "}
       {new Date().getFullYear()}
       {"."}
@@ -147,7 +147,7 @@ export default function About() {
               paragraph
             >
               This is a new platform that will increase interaction between
-              universities. Let's start surfing the UniPlat.
+              Students.
             </Typography>
             <Stack
               sx={{ pt: 1 }}
@@ -223,9 +223,9 @@ export default function About() {
                     />
                     <CardContent sx={{ flexGrow: 1 }}>
                       <Typography gutterBottom variant="h5" component="h2">
-                        Berna KİRAZ
+                       Mecca
                       </Typography>
-                      <Typography>Advisor</Typography>
+                      <Typography>Developer</Typography>
                     </CardContent>
                   </Card>
                 </Grid>
@@ -255,9 +255,9 @@ export default function About() {
                 />
                 <CardContent sx={{ flexGrow: 1 }}>
                   <Typography gutterBottom variant="h5" component="h2">
-                    Abdussamet KACI
+                    Moshki
                   </Typography>
-                  <Typography>Backend Developer</Typography>
+                  <Typography>Marketing Director</Typography>
                 </CardContent>
               </Card>
             </Grid>
@@ -282,7 +282,7 @@ export default function About() {
                 />
                 <CardContent sx={{ flexGrow: 1 }}>
                   <Typography gutterBottom variant="h5" component="h2">
-                    Furkan GÜNDOĞAN
+                    Ricco
                   </Typography>
                   <Typography>Frontend Developer</Typography>
                 </CardContent>
@@ -308,9 +308,9 @@ export default function About() {
                 />
                 <CardContent sx={{ flexGrow: 1 }}>
                   <Typography gutterBottom variant="h5" component="h2">
-                    YÜŞA ORUÇ
+                    Mike
                   </Typography>
-                  <Typography>Frontend Developer</Typography>
+                  <Typography>Financier</Typography>
                 </CardContent>
               </Card>
             </Grid>
@@ -323,7 +323,7 @@ export default function About() {
               paragraph
               sx={{marginTop:"42px !important"}}
             >
-              SPONSOR
+              Sponsor
             </Typography>
           }
           {   <Grid container spacing={4}>

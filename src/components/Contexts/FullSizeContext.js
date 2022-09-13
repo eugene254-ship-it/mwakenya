@@ -8,7 +8,6 @@ export const FullSizeContextProvider = ({ children }) => {
   const value = {
     fullSize,
     setFullSize
-
   }
 
   return <FullSizeContext.Provider value={value}>{children}</FullSizeContext.Provider>

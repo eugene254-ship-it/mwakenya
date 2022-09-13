@@ -4,9 +4,7 @@ import {
   URL_ACTIVITY_PARTICIPANTS,
 } from "../../Contexts/Paths";
 
-// backend like isteğini toggle edecek şekilde olduğu için
-// burada da tek istekle like durumunu toggle edebiliyoruz.
-
+// backend 
 export const likeToggle = (
   userId,
   postId,
@@ -63,7 +61,7 @@ export const activityJoinToggle = (
         console.log("activity join error:", error);
       });
   } else {
-    // activity'den ayrilma
+    // activity
     setParticipantsCount(participantsCount - 1);
     axios({
         method: "GET",

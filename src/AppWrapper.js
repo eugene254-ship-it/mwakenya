@@ -23,8 +23,8 @@ import ParentSearchPage from "./components/Pages/Search/ParentSearchPage";
 import ParentAboutPage from "./components/Pages/About/ParentAboutPage";
 
 function HomeRoute({ children }) {
-  // homepage'e gidebilmek için login olmak gerekiyor, yoksa login sayfasına yönlendirir.
-  // bu / route'u için de geçerli
+  // homepage
+  // route
   const auth = useAuthState();
 
   // console.log("auth:", auth);
@@ -33,7 +33,7 @@ function HomeRoute({ children }) {
 }
 
 function AlreadyLoggedInRoute({ children }) {
-  // Giris yapmis kullanici, sign-in ve sign-up sayfalarına gitmeye çalışırsa home'a gönderilir
+  //  sign-in ve sign-up 
   const auth = useAuthState();
   console.log("auth:", auth);
   return auth.user ? <Navigate to="/Home" /> : children;

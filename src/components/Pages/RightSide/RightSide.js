@@ -36,7 +36,7 @@ const RightSide = () => {
         <Grid item xs={6}>
             <div className={classes.element}>
             <AccountBalanceIcon className={classes.icon}/>
-        <a href="https://www.fsm.edu.tr/" rel="noreferrer" target="_blank" className={classes.element}>FSMVU</a>
+        <a href="https://www.fsm.edu.tr/" rel="noreferrer" target="_blank" className={classes.element}>Ethereum Address</a>
         </div>
         </Grid>
         <Grid item xs={6} >

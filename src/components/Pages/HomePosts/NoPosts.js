@@ -10,7 +10,7 @@ export default function NoPosts() {
   
     return (
       <Stack spacing={2} mb={2} sx={{ width: '100%' }}>
-        <Alert severity="info">Start interactions at Uniplat to see posts</Alert>
+        <Alert severity="info">Start interactions at Mwakenya to see posts</Alert>
       </Stack>
     );
   }

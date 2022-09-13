@@ -25,8 +25,7 @@ export default function Navbar() {
   const handleLogout = () => {
     
     logout(dispatch);
-    window.location.href = "/SignIn";
-    
+    window.location.href = "/SignIn"; 
   };
 
   const handleHomeClick = () => {
@@ -35,7 +34,7 @@ export default function Navbar() {
   }
 
   const navigate = useNavigate();
-  // farklı dosyadan(navbarstyles) stilleri alıyoruz
+  // (navbarstyles)
   const classes = NavbarStyles();
   return (
     <Box sx={{ flexGrow: 1 }}>

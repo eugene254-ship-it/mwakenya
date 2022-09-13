@@ -105,7 +105,7 @@ const MainSocialPage = () => {
             sx={{ padding: "14px" }}
             color="text.primary"
           >
-            UNIVERSITIES
+            Connects
           </Typography>
           <Box sx={{ flexGrow: 1 }}>
             <Grid container className={classes.mygridcontainer} spacing={3}>
@@ -126,7 +126,7 @@ const MainSocialPage = () => {
             sx={{ padding: "14px" }}
             color="text.primary"
           >
-            CLUBS
+            Clubs
           </Typography>
           <Box sx={{ flexGrow: 1 }}>
             <Grid container className={classes.mygridcontainer} spacing={3}>

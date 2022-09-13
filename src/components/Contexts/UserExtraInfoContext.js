@@ -19,7 +19,7 @@ export const UserExtraInfoContextProvider = ({ children }) => {
     setUserImg,
 
   };
-//mainstate'de uni adı bilgisi yok. ek bir context ekledik
+//mainstate
  
   useEffect(() => {
     const getuni = async () => {
@@ -36,11 +36,11 @@ export const UserExtraInfoContextProvider = ({ children }) => {
     if (mainState.user.universityId !== undefined) {
       getuni();
     }
-    // burada dependency mainstate olunca ilk loginde de çalışıyor
+    // dependency
   }, [mainState]);
 
 
-  //mainstate'de img url bilgisi yok. ek bir context ekledik
+  //mainstate
   
   useEffect(() => {
     
@@ -54,7 +54,7 @@ export const UserExtraInfoContextProvider = ({ children }) => {
     if (mainState.user.profileImgId !== undefined) {
       getImgUrl();
     }
-    // burada dependency mainstate olunca ilk loginde de çalışıyor
+    //dependency 
   }, [mainState]);
 
 

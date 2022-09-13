@@ -79,7 +79,7 @@ const SignUpPage = () => {
     if ("surname" in fieldValues)
       temp.surname = fieldValues.surname ? "" : "Last Name is required";
     if ("email" in fieldValues)
-      temp.email = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.+-]+\.edu.tr$/.test(
+      temp.email = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.+-]+\.com$/.test(
         fieldValues.email
       )
         ? ""

@@ -84,7 +84,7 @@ export default function PostCard(props) {
 
   const [expanded, setExpanded] = React.useState(false);
   const handleExpandClick = (e) => {
-    // parent onClick calismasin diye alttaki fonksiyon kullanilir
+    // parent onClick
     e.stopPropagation();
     setExpanded(!expanded);
   };

@@ -9,7 +9,7 @@ import NotificationList from "../../Pages/Notifications/NotificationList"
 
 export default function NotificationPanel({notificationState,setNotificationState}) {
 
-  // bildirimler panel(desktop) ve sayfa(mobil) olmak üzere iki şekilde gösteriliyor
+  // panel(desktop) (mobile) 
   // burası panel kısmı
 
   const classes = NotificationPanelStyles();

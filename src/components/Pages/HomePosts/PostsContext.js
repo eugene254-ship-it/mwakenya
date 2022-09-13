@@ -1,6 +1,6 @@
 import React, { createContext } from 'react'
 import { useState } from 'react'
-// burada ve ProfileContext'de aynı data var
+// ProfileContext
 export const data=[
     {
       id:"postid1",

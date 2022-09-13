@@ -8,7 +8,6 @@ export const NewUniPostModalContextProvider = ({ children }) => {
   const value = {
     newUniPostState,
     setNewUniPostState
-
   }
 
   return <NewUniPostModalContext.Provider value={value}>{children}</NewUniPostModalContext.Provider>

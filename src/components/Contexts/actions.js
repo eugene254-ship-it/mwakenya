@@ -23,7 +23,7 @@ export async function loginUser(dispatch, loginPayload) {
       }
     })
     .catch((e) => {
-      //altta error mesajı ilk aşamada senkron sıkıntısı çıkartıyordu, göstermeyi direkt login sayfasına taşıdık
+      //login alt error
       // dispatch({ type: 'LOGIN_ERROR', payload: e.response.data.message+"" });
       return e;
     });

@@ -8,7 +8,6 @@ export const NewPostModalContextProvider = ({ children }) => {
   const value = {
     newPostState,
     setNewPostState
-
   }
 
   return <NewPostModalContext.Provider value={value}>{children}</NewPostModalContext.Provider>

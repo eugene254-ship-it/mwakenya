@@ -7,9 +7,8 @@ const AuthDispatchContext = React.createContext();
 
 export function useAuthState() {
   const context = React.useContext(AuthStateContext);
-  // Alttaki mycontext: Telden tasarima girebilmek icin auth bariyerini geçmeyi sagliyor,
-  // return mycontext olarak çevir
-  
+  //  mycontext: 
+  // return mycontext 
   /*
   const mycontext = {
     user: {
@@ -31,16 +30,16 @@ export function useAuthState() {
 
 export function useAuthDispatch() {
   const context = React.useContext(AuthDispatchContext);
-   // Alttaki mycontext: Telden tasarima girebilmek icin auth bariyerini geçmeyi sagliyor,
-  // return mycontext olarak çevir
+   //  mycontext: 
+  // return mycontext 
   /*
   const mycontext = {
     user: {
-      email: "fru@stu.fsm.edu.tr",
+      email: "strathmore.edu",
       gender: "MALE",
-      name: "furkan",
+      name: "eugene",
       password: "123123",
-      surname: "gundogan",
+      surname: "ochako",
       type: "STUDENT",
     },
   }

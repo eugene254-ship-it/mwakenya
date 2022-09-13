@@ -19,8 +19,7 @@ import InputStyles from "./InputStyles";
 import bgImage from "./uni2.jpg";
 import { loginUser, useAuthDispatch } from "../Contexts";
 
-//theme için makeStyles,classess yapılarını kullanıyoruz
-// globalden body'i style verdiğimiz için classess şimdilik kullanılmadı
+
 const useStyles = makeStyles((theme) => ({
   "@global": {
     body: {
@@ -51,7 +50,7 @@ const SignInPage = (props) => {
     //console.log("Remember me:", checked);
     let control = true;
     if (
-      (/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.+-]+\.edu.tr$/.test(email) === false) |
+      (/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.+-]+\.com$/.test(email) === false) |
       (password.length < 6)
     ) {
       setInputError("Please enter suitable email and password");

@@ -11,7 +11,7 @@ function Copyright(props) {
     >
       {"Copyright © "}
       <UILink component={Link} color="inherit" to="/">
-        UniPlat Socail Media
+        Mwakenya Social Media
       </UILink>{" "}
       {new Date().getFullYear()}
       {"."}

@@ -10,6 +10,5 @@ export const NewClubPostModalContextProvider = ({ children }) => {
     setNewClubPostState
 
   }
-
   return <NewClubPostModalContext.Provider value={value}>{children}</NewClubPostModalContext.Provider>
 }
